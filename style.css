@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    width: 100%;
+    /* min-height: 100vh; */
+    /* border: 2px solid yellow; */
+    display: flex;
+    
+}
+#left-side{
+    width: 120px;
+    background: #222;
+    min-height:100vh;
+    /* border: 2px solid red; */
+    position: fixed;
+    left: 0px;
+    top: 0px;
+}
+#left-side img{
+   width: 100%;
+}
+.nav-items{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 12px 24px;
+    text-align: center;
+}
+.nav-items p{
+    margin: 12px 0px;
+
+}
+#right-side{
+    padding: 12px 200px;
+    /* border: 2px solid yellow; */
+    width: calc(100% - 7.5rem);
+    min-height: 100vh;
+    background-color: #000;
+    color: white;
+    margin-left: 117px;
+       
+}
+#right-side #hero-section{
+    width: 100%;
+    text-align: center;
+    
+}
+#right-side #hero-section h1{
+    font-size: 64px;
+    margin: 10px 0;
+    font-weight: 25rem;
+    text-align: center;
+    
+}
+
+#right-side #hero-section p{
+    font-size: 15px;
+    margin: 15px 0;
+    /* font-weight: */
+    text-align: center;
+     
+}
+#right-side #hero-section img{
+    /* width: 200px; */
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+#About{
+
+}
+#About h2{
+    font-weight: 25rem;
+    margin: 10px 0px;
+    font-size: 30px;
+
+}
+#About hr{
+    margin: 20px 0px;
+    border: 1px solid #eee;
+}
+#About p{
+    margin: 15spx 0px;
+    color: #757575;
+    font-size: 15px;
+    line-height: 1.5;
+}
+#About h3{
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 24px;
+}
+/* About section start */
+#About .bar{
+    letter-spacing: 4px;
+    margin: 15px 0px;
+    
+}
+#About .bar1{
+    height: 28px;
+    width: 100%;
+    background-color:white;
+    /* border: 2px solid white; */
+}
+#About .bar1-child{
+    height: 28px;
+    background-color:#616161;
+}
+#bar1-child1{
+    width: 95%;
+}
+#bar1-child2{
+    width: 85%;
+}
+#bar1-child3{
+    width: 80%;
+}
+#container1{
+    display: flex;
+    border: 1px solid yellow;
+    padding: 16px 0px;
+    margin: 16px 0px;
+    background-color: white;
+}
+#container1 .container{
+    margin: 16px 0px;
+    width: 24.99%;
+    height: 55px;
+    background-color: white;
+    color: #000;
+    text-align: center;
+}
+
+#container1 .p1{
+    font-size: 24px;
+}
+#Download-bt{
+    padding: 12px 24px;
+    background-color: #f1f1f1;
+    color: #000;
+
+}
+#h32{
+    margin: 1opx 0px;
+    padding: 16px 0px;
+    font-size: 24px;
+    font-weight: 25rem;
+}
+#My-Price{
+    display:flex;
+    justify-content:space-between;
+}
+.half-div{
+    width: 48.99%;
+    /* border: 1px solid yellow; */
+}
+.Package{
+    width: 481px 100px;
+    padding: 32px 16px;
+    text-align: center;
+    background-color: #3A3A3A;
+    font-size: 24px;
+    color: #999999;
+}
+.List-Work{
+    width: 481px 55px;
+    padding: 16px 16px;
+    border-bottom: 0.5px solid #ddd;
+    color: #000;
+    background-color: #999999;
+    text-align: center;
+    
+}
+.bt-box{
+    background-color: #919191;
+}
+.Signup-bt{
+    width: 107px 46px;
+    padding: 12px 24px;
+    color: #000;
+    background-color: #999999;
+    outline: none;
+    border: none;
+
+}
+
+#h33{
+    color: white;
+    margin: 10px 0px;
+    padding: 24px 0px;
+    font-size: 24px;
+}
+.un-list{
+    list-style: none;
+}
+.img-last{
+    width: 80px;
+    border-radius: 50%;
+    margin-right: 16px;
+    vertical-align: middle;
+    float: left;
+}
+#i-div{
+    /* border: 2px solid yellow; */
+    margin: 50px 0;
+}
+.span1{
+    margin: 0px 16px 0 0;
+}
+.lp{
+    margin: 15px 0px;
+    color: #757575;
+}
+#h2-l{
+    font-weight: 25rem;
+    margin: 10px 0px;
+    font-size: 30px;
+
+}
+.i-text{
+    color: #757575;
+    margin: 15px 0px;
+}
+
+.input-field{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 10px 0px;
+    background: #f1f1f1;
+    
+}
+#l-bt{
+    padding: 12px 24px;
+    background: #f1f1f1;
+}
+#bt-i{
+    margin-right: 10px;
+}
+footer{
+    /* border: 1px solid green; */
+    height: 200px;
+    padding: 64px 0px;
+    
+}
+footer p{
+    margin: 15px 0px;
+}
+footer span{
+    /* border-bottom: 1px solid white; */
+    text-decoration: underline;
+    
+}
+ footer div a{
+    color: #757575;
+    margin-right: 5px;
+    display: inline-block;
+    
+}
+     
